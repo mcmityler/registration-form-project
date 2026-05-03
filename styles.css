@@ -133,7 +133,25 @@
     border: 1px solid #ccc;
     border-radius: 5px; 
 }
+.input-field input:focus{
 
+    box-shadow: 5px 5px 8px #96999c;
+    outline: none;
+    border: 1px solid #1870b8;
+    border-radius: 5px; 
+
+}
+.input-field input[type="password"]:invalid{
+    outline: none;
+    border: 1px solid #b10000;
+    border-radius: 5pxrgb(143, 7, 7)
+}
+
+.input-field input[type="password"]:valid{
+    outline: none;
+    border: 1px solid #21c40c;
+    border-radius: 5pxrgb(143, 7, 7)
+}
 
 .submission-section{
     width: 100%;
