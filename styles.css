@@ -1,5 +1,5 @@
 *{
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -32,15 +32,16 @@
     font-size: 2rem;
     height: 4em;
     position: absolute;
-    top: 30%;
-    background-color: rgba(0,0,0,0.4);
+    top: 20%;
+    background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:"Future-font", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .website-banner h1{
     color:white;
+    font-family:"Future-font", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 .website-banner img{
     height: 90%;
@@ -92,8 +93,8 @@
 }
 .form-encourage p{
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 30%;
+    left: 7%;
 }
 .form-section form{
     height: 80%;
@@ -105,15 +106,15 @@
 .form-left{
     display: flex;
     flex-direction:column;
-    gap: 15px;
-    margin-left: 5%;
+    gap: 20px;
+    margin-left: 7%;
     margin-right: 10%;
     margin-top: 20px;
 }
 .form-right{
     display: flex;
     flex-direction:column;    
-    gap: 15px;
+    gap: 20px;
     margin-top: 20px;
 
 
@@ -124,8 +125,13 @@
 }
 .input-field label{
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.75em;
     font-weight: 700;
+}
+.input-field input{
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
 }
 
 
@@ -133,4 +139,26 @@
     width: 100%;
     height: 35%;
 
+}
+.submission-section button{
+    font-size: 1.3em;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 8px #96999c;
+    margin-top: 40px;    
+    margin-left: 7%;
+
+}
+.submission-section p{
+    margin-top: 20px;
+    margin-left: 7%;
+
+}
+.submission-section a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
